@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: F6F6F6;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #F35B5B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    left:0;
+  
+  }
+
+  .topnav2 {
+    overflow: hidden;
+    background-color: #F35B5B;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    
+
+  
+  }
+
+  
+ nav-items {
+     list-style-type: none;
+     display: flex;
+ }
+
+ .logo {
+     margin-top: 15px
+ }
+
+ .item {
+     list-style-type: none;
+     display: inline-block;
+ }
+
+ 
+.headerDivider {
+    border-left:1px solid #ffffff; 
+    border-right:1px solid #ffffff; 
+    height:70px;
+    position:absolute;
+    top:9px; 
+    margin-left: 270px;
+}
+
+.item2 {
+    list-style-type: none;
+    position:absolute;
+     display: inline-block;
+     color: white;
+     margin-left: 70px;
+     font-size: 40px;
+     margin-top: -20px;
+     top: 35px;
+}
+
+.item3 {
+    list-style-type: none;
+    position:absolute;
+     display: inline-block;
+     margin-left: 1135px;
+     font-size: 27px;
+     margin-top: -20px;
+     top: 10px;
+     color: white;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 30px;
+}
+
+.nav-item:hover {
+    animation: mymove 3s;
+    cursor: pointer;
+}
+
+@keyframes mymove{
+    10%{font-size: 30px;}
+}
+
+.nav-item-follow {
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+    left: 410px;
+}
+
+.event {
+    width: 1250px;
+    height: 270px;
+    margin-top:50px;
+    margin-left: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    padding-left: 20px;
+    padding-top: 30px;
+
+
+}
+
+@keyframes mymove2{
+    5%{font-size: 30px;}
+}
+
+.event:hover {
+    cursor: pointer;
+
+
+
+}
+
+
+.add {
+    position: absolute;
+    top: 230px;
+    left: 1500px;
+}
