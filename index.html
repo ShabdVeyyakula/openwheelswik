@@ -10,14 +10,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
         <script data-ad-client="ca-pub-8859967539072853" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./js/newsapi"></script>
+        <script src="mainnews.js"></script>
+
 
 
     </head>
-    
+
 
     <body>
+
+
         <div class="topnav2">
-              
+
 
         </div>
 
@@ -32,104 +37,44 @@
                     <li class="nav-item" style="font-weight: bold;">News</li>
                     <li class="nav-item"><a href="./html/info-page.html" style="text-decoration: none; color: white;">F1</a></li>
                     <li class="nav-item"><a href="./html/popular.html" style="color: white; text-decoration: none;">Popular</a></li>
-                    <li class="nav-item-follow"><img src="../images/Vector.png" alt="follow"></li>
+                    <li class="nav-item-follow"><img src="./images/Vector.png" alt="follow"></li>
                     <li class="nav-item">Follow Us</li>
                     <li class="nav-item"><a href="./html/blog.html" style="text-decoration: none; color: white;">Blog</a></li>
                 </ul>
-              </li>            
+              </li>
             </ul>
           </div>
 
-          <div class="main-news">
+          <div id="mainNews"></div>
+
+
+
+
+
+
+          <div id="loader">
+            <div class="progress" style="display: none;">
+            </div>
 
           </div>
 
-          <div class="main-news-description">
-              <p>
-                  bjfbakdlkbd
-              </p>
-              
-          </div>
+          <div id="newsResults" class="event"></div>
 
-          <div class="event">
-              <hr style=" height: 0.1px; border: none; 
-              height: 0.1px; 
-              background: rgb(219, 219, 219); margin-bottom: 30px; ">
-              <ul style="list-style-type: none; display: flex;">
-                  <li>
-                    <img src="./images/MT017406_2019111753336844.jpg" alt="" width="400px">
 
-                  </li>
-                  <li>
-                      <div style="width: 40px;">
 
-                      </div>
-                  </li>
-                  <li>
-                      <div>
-                        <h1 >	Why Ferrari can NEVER Live up to Mercedes!</h1>
-                        <p >Ferrari is a good team and all but they are absolutely obsolete compared to the power <br> and awesomness of Mercedes and Lewis Hamilton Sebastian Vettel could only dream</p>
-                        <p style=" color: rgb(211, 9, 9);"><strong>By: Mattia Binotto</strong></p>
-                        <p >APR 25</p>
-
-                      </div>
-                  </li>
-              </ul>
-              
-             
-              <hr style=" height: 0.1px; border: none; 
-              height: 0.1px; 
-              background: rgb(219, 219, 219); margin-bottom: 30px; ">
-              
-
-          </div>
-          <div class="event2">
-            <hr style=" height: 0.1px; border: none; 
-            height: 0.1px; 
-            background: rgb(219, 219, 219); margin-bottom: 30px; ">
-            <ul style="list-style-type: none; display: flex;">
-                <li>
-                  <img src="./images/MT017406_2019111753336844.jpg" alt="" width="400px">
-
-                </li>
-                <li>
-                    <div style="width: 40px;">
-
-                    </div>
-                </li>
-                <li>
-                    <div>
-                      <h1 >	Why Ferrari can NEVER Live up to Mercedes!</h1>
-                      <p >Ferrari is a good team and all but they are absolutely obsolete compared to the power <br> and awesomness of Mercedes and Lewis Hamilton Sebastian Vettel could only dream</p>
-                      <p style=" color: rgb(211, 9, 9);"><strong>By: Mattia Binotto</strong></p>
-                      <p >APR 25</p>
-
-                    </div>
-                </li>
-            </ul>
-            
-           
-            <hr style=" height: 0.1px; border: none; 
-            height: 0.1px; 
-            background: rgb(219, 219, 219); margin-bottom: 30px; ">
-            
-
-        </div>
-
-          
 
           <img src="./images/Vector (1).png" alt="" class="add">
 
 
-          
 
-          
 
-          
-              
-          
 
-           
+
+
+
+
+
+
 
 
 
@@ -140,4 +85,3 @@
 
     </body>
 </html>
-
